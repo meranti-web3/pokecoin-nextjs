@@ -1,7 +1,7 @@
 import { gql, ApolloServer } from "apollo-server-micro";
 import { NextApiRequest, NextApiResponse } from "next";
 
-import { getAllCoins, getCoinById, addCoin } from "../business/coins";
+import { getAllCoins, getCoinById, addCoin } from "../../business/coins";
 
 const typeDefs = gql`
   type Query {
